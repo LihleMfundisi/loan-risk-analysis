@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project analyzes customer and transaction data to identify risk patterns and support loan approval decisions. The goal is to uncover high-risk customer behavior using SQL-based data analysis.
+This project analyzes customer and transaction data to identify risk patterns and support loan approval decisions. The goal is to uncover high-risk customer behavior using SQL-based data analysis. This analysis was intentionally performed on a single transactional dataset to simulate early-stage data availability in real-world scenarios.
 
 ## Problem Statement
 
@@ -15,7 +15,6 @@ Financial institutions must evaluate loan applications efficiently while minimiz
 
 ## Key Analysis Performed
 
-* Joined customer and transaction datasets
 * Aggregated transaction data using SUM, COUNT, and MAX
 * Identified customers with:
 
