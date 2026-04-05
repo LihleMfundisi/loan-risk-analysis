@@ -29,7 +29,7 @@ Financial institutions must evaluate loan applications efficiently while minimiz
 SELECT customer_id,
        MAX(amount) AS max_amount,
        COUNT(DISTINCT location) AS location_count
-FROM transactions
+FROM transections
 GROUP BY customer_id
 HAVING COUNT(DISTINCT location) > 1
    AND MAX(amount) > 10000
